@@ -1,0 +1,41 @@
+.nav-bar {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border-top: 2px solid black;
+}
+.nav-list {
+    display: flex;
+    justify-content: space-around;
+}
+.nav-btn:nth-child(2) {
+    position: relative;
+}
+.nav-alarm {
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    font-size: 8px;
+    background-color: rgb(242, 85, 58);
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: 10px;
+    top: -6px;
+    animation: alarm 1s cubic-bezier(0.000, 0.680, 0.060, 0.710) infinite;
+}
+@keyframes alarm {
+    0% {
+        transform: none;
+      }
+    50% {
+        transform: translateY(-5px) rotateY(360deg);
+    }
+    100% {
+        transform: none;
+    }
+}

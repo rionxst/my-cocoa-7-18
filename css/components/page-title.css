@@ -1,0 +1,16 @@
+.page-title {
+    display: flex;
+    margin: 5px 15px;
+    padding: 5px 0px; 
+    justify-content: space-between;
+}
+.page-name {
+    font-size: 30px;
+    font-weight: 600;
+}
+.page-icon i {
+    color: rgba(0, 0, 0, 0.4);
+}
+.page-icon i:nth-child(2) {
+    margin-left: 10px;
+}

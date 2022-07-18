@@ -1,0 +1,40 @@
+.friends {
+    margin: 0px 10px;
+}
+.friends-box {
+    position: relative;
+}
+.friends-box {
+    display: flex;
+    align-items: center;
+}
+.friends-cover img {
+    height: 45px;
+    width: 45px;
+    border-radius: 30%;
+    margin-right: 12px;
+}
+.friends-info__name {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 4px;
+}
+.friends-icon {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    right: 0px;
+}
+.input-alarm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 8px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: rgba(254, 69, 44, 0.897);
+    color: white;
+    margin-top: 4px;
+}

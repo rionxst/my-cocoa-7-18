@@ -1,0 +1,48 @@
+.option-bar {
+    margin: 20px 10px;
+    padding: 10px 0px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+}
+.option-list {
+    display: flex;
+    justify-content: space-around;
+}
+.option-btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.option-btn i {
+    margin-bottom: 20px;
+}
+.open-chat{
+    margin: 20px 10px 0px 10px;
+}
+.open-chat__list {
+    margin-top: 10px;
+    height: 320px;
+    overflow-y: scroll;
+}
+.open-chat__box {
+    border-radius: 20px;
+    background-color: rgb(235, 235, 235);
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.open-chat__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.open-chat__title {
+    font-size: 18px;
+    font-weight: 600;
+}
+.open-chat__cover {
+    border-radius: 30%;
+    width: 80px;
+    height: 80px;
+}
